@@ -16,7 +16,7 @@ body{
     background: #FFA004;
     height: 155px;
     width: 100%;
-    position: static;
+    position: fixed;
     border-bottom: 2px solid #E48F45;
 }
 
@@ -83,12 +83,14 @@ body{
     width: 49%;
     height: auto;
     float: left;
+    margin-top: 155px;
 }
 
 #main .right{
     width: 49%;
     height: auto;
     float: right;
+    margin-top: 155px;
 }
 
 #main img{
@@ -303,6 +305,10 @@ body{
     #check:checked ~ ul{
         left: 0;
     }
+
+    /* .menu:visited ~ ul{
+        left: -100%;
+    } */
 
     #main img{
         width: 230px;
