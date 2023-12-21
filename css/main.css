@@ -192,6 +192,8 @@ body{
 #menu{
     background-color: #F9BD17;
     border: 1px solid black;
+    display: grid;
+    place-items: center;
 }
 
 #menu h1{
@@ -208,11 +210,7 @@ body{
     height: 260px;
     background-color: #E48F45;
     display: inline-block;
-    margin-left: 40px;
-}
-
-.card1{
-    margin-left: calc(9rem + 6.0vw);
+    margin-left: 30px;
 }
 
 .card img{
@@ -245,6 +243,24 @@ body{
 
 #menu .right p{
     margin-left: 30px!important;
+}
+
+button{
+    background-color: #D76400;
+    width: 100px;
+    border-radius: 30px;
+    border: 1px solid #D76400;
+    margin-top: 20px;
+}
+
+.more{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Slabo';
+}
+
+.more:hover{
+    padding-left: 15px;
 }
 
 
@@ -335,9 +351,6 @@ body{
         margin: 20px;
     }
 
-    .card1{
-        margin-left: 60px;
-    }
 }
 
 @media (max-width: 750px){
