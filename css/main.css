@@ -467,10 +467,7 @@ body{
     }
 
     .card{
-        margin: 7px;
+        margin: 5px;
     }
 
-    .card1{
-        /* margin-left: 10px; */
-    }
 }
