@@ -126,7 +126,6 @@ body{
 
 #about{
     background-color: #F9BD17;
-    border: 1px solid black;
 }
 
 #about h1{
@@ -188,6 +187,64 @@ body{
     text-align: center;
     width: 172px;
     height: 55px;
+}
+
+#menu{
+    background-color: #F9BD17;
+    border: 1px solid black;
+}
+
+#menu h1{
+    font-family: 'Sanchez';
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+    font-size: 38px;
+}
+
+.card{
+    width: 180px;
+    height: 260px;
+    background-color: #E48F45;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.card1{
+    margin-left: calc(9rem + 6.0vw);
+}
+
+.card img{
+    width: 180px;
+}
+
+.card h5{
+    color: #000;
+    font-size: 18px;
+    font-family: 'Abril Fatface';
+    margin: 5px;
+}
+
+#menu .left{
+    width: 50%;
+    float: left;
+}
+
+#menu .right{
+    width: 50%;
+    float: right;
+}
+
+#menu p{
+    color: #000;
+    font-size: 14px;
+    font-family: 'Sanchez';
+    margin: 5px;
+}
+
+#menu .right p{
+    margin-left: 30px!important;
 }
 
 
@@ -268,6 +325,18 @@ body{
         text-align: center;
         width: 172px;
         height: 55px;
+    }
+
+    #menu h1{
+        font-size: 35px;
+    }
+
+    .card{
+        margin: 20px;
+    }
+
+    .card1{
+        margin-left: 60px;
     }
 }
 
@@ -391,5 +460,17 @@ body{
         text-align: center;
         width: 172px;
         height: 55px;
+    }
+
+    #menu h1{
+        font-size: 32px;
+    }
+
+    .card{
+        margin: 7px;
+    }
+
+    .card1{
+        /* margin-left: 10px; */
     }
 }
