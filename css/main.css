@@ -311,24 +311,24 @@ body{
 
     .mine{
         /* font-size: calc(4rem + 4.0vw); */
-        font-size: 70px;
+        font-size: 60px;
         font-family: 'Archivo Black'; 
         margin-top: 40px;
-        margin-left: 30px;  
-        line-height: 70px;
+        margin-left: 0px;  
+        line-height: 60px;
     }
     
     .hamma{
-        font-size: 31px;
+        font-size: 27px;
         font-family: 'Sanchez';
         color: #fff;
-        margin-left: 30px;
+        margin-left: 0px;
     }
     
     .biz{
         color: #866042;
-        font-size: 19.5px;
-        margin-left: 30px;
+        font-size: 17px;
+        margin-left: 00px;
     }
 
     #about h1{
