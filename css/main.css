@@ -360,11 +360,11 @@ iframe{
 #menu1{
     width: 100%;
     background-color: #000;
-    margin-top: 50px;
 }
 
 #menu1 img{
     width: 100%;
+    margin-top: 80px;
 }
 
 #menu2{
@@ -593,7 +593,7 @@ iframe{
     }
 
     .card{
-        margin: 8px;
+        margin: 6px;
     }
 
     #contact .left{
