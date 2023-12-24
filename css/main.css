@@ -191,7 +191,7 @@ body{
 
 #menu{
     background-color: #F9BD17;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: grid;
     place-items: center;
 }
@@ -245,22 +245,114 @@ body{
     margin-left: 30px!important;
 }
 
-button{
-    background-color: #D76400;
-    width: 100px;
-    border-radius: 30px;
-    border: 1px solid #D76400;
-    margin-top: 20px;
-}
-
 .more{
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Slabo';
+    background-color: #D76400;
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #D76400;
+    margin: 20px;
+    transition: all 1s;
+    text-align: center;
 }
 
 .more:hover{
     padding-left: 15px;
+}
+
+#contact{
+    background-color: #D76400;
+    height: auto;
+}
+
+#contact .left{
+    float: left;
+    width: 50%;
+}
+
+#contact .right{
+    float: right;
+    width: 50%;
+}
+
+#contact .l1{
+    float: left;
+    width: 50%;
+}
+
+#contact .r1{
+    float: left;
+    width: 50%;
+}
+
+#contact ul{
+    margin: 10px;
+}
+
+#contact li{
+    list-style: none;
+}
+
+#contact li a{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* padding: 7px 13px; */
+    border-radius: 10px;
+    font-family: 'Archivo Black';
+}
+
+#contact ul li a:hover{
+    /* background: #fff; */
+    color: #000;
+    transition: .5s;
+}
+
+#contact h3{
+    font-size: 20px;
+    color: #000;
+    font-family: 'Inika';
+    margin: 10px;
+}
+
+#contact p{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Archivo';
+    margin-left: 10px;
+}
+
+#contact i{
+    cursor: pointer;
+    margin: 3px;
+}
+
+.i1{
+    margin-left: 10px!important;
+}
+
+#contact h6{
+    color: #fff;
+    font-family: 'Archivo';
+    font-size: 14px;
+    margin: 10px;
+}
+
+iframe{
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.copy{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Archivo';
+    color: #000;
+    margin-top: 20px;
 }
 
 
@@ -365,7 +457,7 @@ button{
     #header ul{
         position: fixed;
         width: 100%;
-        height: 70vh;
+        height: 80vh;
         background: #FFB800;
         top: 125px;
         left: -100%;
@@ -480,7 +572,15 @@ button{
     }
 
     .card{
-        margin: 5px;
+        margin: 6px;
+    }
+
+    #contact .left{
+        width: 100%;
+    }
+
+    #contact .right{
+        width: 100%;
     }
 
 }
