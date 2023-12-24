@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
-
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +8,7 @@
 
 body{
     height: auto;
+    margin-bottom: 0;
 }
 
 #header{
@@ -265,7 +264,7 @@ body{
 
 #contact{
     background-color: #D76400;
-    height: auto;
+    height: 250px;
 }
 
 #contact .left{
@@ -353,8 +352,8 @@ iframe{
     font-size: 15px;
     text-align: center;
     font-family: 'Archivo';
-    color: #000;
     margin-top: 20px;
+    color: #000!important;
 }
 
 #menu1{
@@ -468,7 +467,7 @@ iframe{
 
 @media (max-width: 750px){
     #header{
-        height: 130px;
+        height: 120px;
     }
 
     .checkbtn{
@@ -593,7 +592,11 @@ iframe{
     }
 
     .card{
-        margin: 6px;
+        margin: 7px;
+    }
+
+    #contact{
+        height: 430px;
     }
 
     #contact .left{
